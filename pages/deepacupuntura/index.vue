@@ -42,6 +42,9 @@
         <a href='https://api.whatsapp.com/send?phone=5521936184024%20&text=Ol%C3%A1,%20fiquei%20interessado(a)%20nos%20seus%20servi%C3%A7os,%20me%20chamo%20' class='dot-index' :class='{ selectTitleHover: aplicar }'> 
         <i class="fa-brands fa-square-whatsapp"></i> Whatsapp
         </a>
+        <a href='https://agendamento.nextfit.com.br/74fb4384-512b-425d-9cc4-93d948554990' class='dot-index' :class='{ selectTitleHover: aplicar }'> 
+        <i class="fa-solid fa-calendar-day"></i> Agendamento
+        </a>
         <a href='https://www.instagram.com/deepacupuntura' class='dot-index' :class='{ selectTitleHover: aplicar }'> 
         <i class="fa-brands fa-square-instagram"></i> Instagram
         </a>
@@ -90,12 +93,14 @@ export default {
       { name: 'theme-color', content: '#860d0d' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/MyLogoBoldFundo.svg' },
-      { rel: 'shortcut icon', type: 'image/x-icon', href: '/MyLogoBoldFundo.svg' },
-      { rel: 'apple-touch-icon', size: '180x180', href: '/MyLogoBoldFundo.svg' },
-      { rel: 'icon', type: 'image/svg', size: '32x32', href: '/MyLogoBoldFundo.svg' },
-      { rel: 'icon', type: 'image/svg', size: '16x16', href: '/MyLogoBoldFundo.svg' },
-      { rel: 'apple-touch-icon', size: '180x180', href: '/apple-touch-icon.svg' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.svg' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '/MyLogoBoldFundo.png' },
+      { rel: 'icon', type: 'image/png', size: '32x32', href: '/MyLogoBoldFundo.png' },
+      { rel: 'icon', type: 'image/png', size: '16x16', href: '/MyLogoBoldFundo.png' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '/apple-touch-icon.png' },
+      { rel: 'manifest', href: '/site.webmanifest' },
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#860d0d' },
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#860d0d' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Philosopher&display=swap' }

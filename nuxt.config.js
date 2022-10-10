@@ -28,11 +28,11 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/MyLogoBoldFundo.svg' },
-      { rel: 'shortcut icon', type: 'image/x-icon', href: '/MyLogoBoldFundo.svg' },
-      { rel: 'apple-touch-icon', size: '180x180', href: '/MyLogoBoldFundo.svg' },
-      { rel: 'icon', type: 'image/svg', size: '32x32', href: '/MyLogoBoldFundo.svg' },
-      { rel: 'icon', type: 'image/svg', size: '16x16', href: '/MyLogoBoldFundo.svg' },
+      { rel: 'icon', type: 'image/x-icon', href: '' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '' },
+      { rel: 'icon', type: 'image/svg', size: '32x32', href: '' },
+      { rel: 'icon', type: 'image/svg', size: '16x16', href: '' },
       { rel: 'apple-touch-icon', size: '180x180', href: '/apple-touch-icon.svg' },
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Philosopher&display=swap' }
