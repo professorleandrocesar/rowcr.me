@@ -26,6 +26,9 @@
           <a>Ventosaterapia</a>
         </div>
         <div class='homeTwoDot' :class='{ selectTitle: aplicarCran }'>
+          <a>Gua Sha</a>
+        </div>
+        <div class='homeTwoDot' :class='{ selectTitle: aplicarCran }'>
           <a>Fórmulas Magistrias Chinesas</a>
         </div>
         <!--
