@@ -42,6 +42,9 @@
     <div class='hr'></div>
       <br>
       <div class='main-l-trat'>
+        <a href='https://black.deepacupuntura.com' class='dot-index' :class='{ selectTitleHover: aplicar }'> 
+        <i class="fa-solid fa-fire fire-color"></i> Black Descontos <i class="fa-solid fa-fire fire-color"></i>
+        </a>
         <a href='https://api.whatsapp.com/send?phone=5521936184024%20&text=Ol%C3%A1,%20fiquei%20interessado(a)%20nos%20seus%20servi%C3%A7os,%20me%20chamo%20' class='dot-index' :class='{ selectTitleHover: aplicar }'> 
         <i class="fa-brands fa-square-whatsapp"></i> Whatsapp
         </a>
@@ -1141,13 +1144,42 @@ transition: all .3s ease-in;
   border: solid .5px #e23a28;
   text-shadow: -1px 1px 10px #fff;
 }
+.dot-index:nth-child(1):hover {
+  color: rgb(71, 22, 22);
+  border: solid .5px #e23a28;
+  text-shadow: -1px 1px 10px #fff;
+  text-align: center;
+  color: black;
+  text-shadow: -2px 2px 5px #e23a28, -2px -2px 5px #e23a28, 2px 2px 5px #e23a28, 2px -2px 5px #e23a28;
+  line-height: 1;
+}
+.dot-index:nth-child(1) {
+  background-color: black ;
+  color: rgb(71, 22, 22);
+  border: solid .5px #498f49;
+  text-shadow: -1px 1px 10px #fff;
+  text-align: center;
+    color: #0f0;
+    text-shadow: -2px 2px 5px #498f49, -2px -2px 5px #498f49, 2px 2px 5px #498f49, 2px -2px 5px #498f49;
+    line-height: 1;
+}
+.dot-index:nth-child(1) i {
+  background-color: black ;
+  color: rgb(71, 22, 22);
+  text-shadow: -1px 1px 10px #fff;
+  text-align: center;
+    color: #e23a28;
+    text-shadow: -2px 2px 5px #000, -2px -2px 5px #000, 2px 2px 5px #000, 2px -2px 5px #000;
+    line-height: 1;
+}
 
 .dot-index {
   margin: 5px 10px;
   font-size: .8em;
   width:160px;
   text-align: left;
-  padding-left: 40px;
+  padding-left: 20px;
+  padding-right: 15px;
 }
 
 .dotHover {
